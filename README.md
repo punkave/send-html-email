@@ -17,3 +17,9 @@ send-html-email me+testmail@example.com mytestfile.html
 Set up a filter to never send messages with `+testmail` in the address to spam, and you're good to go.
 
 Also consider options like [litmus](http://litmus.com). This is vastly cheaper, plus in gmail you can actually hit "Inspect" this way. But you probably don't own every device in the world.
+
+## Limitations
+
+This is for testing email templates. If you want to send email in a production way, check out `nodemailer`.
+
+`send-html-email` always uses the `sendmail` nodemailer transport. On Windows, that won't work. Pull requests welcome.
