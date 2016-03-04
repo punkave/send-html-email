@@ -1,6 +1,6 @@
 {
   "name": "send-html-email",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Send an HTML file as an email message with the right content type, for testing email clients",
   "main": "app.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "email"
   ],
  "bin": {
-    "mechanic": "./bin/mechanic"
+    "send-html-email": "./bin/send-html-email"
   },
   "author": "P'unk Avenue LLC",
   "license": "MIT",
