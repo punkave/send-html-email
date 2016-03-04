@@ -1,6 +1,6 @@
 {
   "name": "send-html-email",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Send an HTML file as an email message with the right content type, for testing email clients",
   "main": "app.js",
   "scripts": {
