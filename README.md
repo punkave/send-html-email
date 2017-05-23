@@ -3,7 +3,7 @@
 ```
 npm install -g send-html-email
 
-send-html-email me@example.com mytestfile.html
+send-html-email me@example.com mytestfile.html my-subject
 ```
 
 `send-html-email` is a command line tool that emails the given file to the given address with the correct content type so it renders as an HTML email message. This tool is intended for faster testing of HTML email templates on real devices. It is not intended for bulk email delivery. The "from" and "to" addresses will be the same. *The message will almost certainly wind up in your spam folder.* Consider using a filter to prevent that.
